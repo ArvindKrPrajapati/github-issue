@@ -1,0 +1,98 @@
+.main {
+    border-radius: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+    border: 1px solid rgb(120, 120, 120);
+}
+
+.container-fluid {
+    background-color: rgb(30, 30, 30);
+}
+
+.my-bg {
+    background-color: inherit;
+    border: none;
+}
+
+.my-bg:hover {
+    background-color: inherit;
+}
+
+.header {
+    background-color: rgb(60, 60, 60);
+    height: 55px;
+    border-bottom: 1px solid rgb(120, 120, 120);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #eee;
+}
+
+.content {
+    /* height: 55px; */
+    border-bottom: 1px solid rgb(120, 120, 120);
+    padding: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: green;
+}
+
+.title {
+    color: gainsboro;
+    font-size: 17px;
+}
+
+.desc {
+    color: silver;
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.label {
+    margin: 0 5px 0 5px;
+    border-radius: 18px;
+    background-color: red;
+    padding: 1px 10px 1px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.chat-icon {
+    display: flex;
+    align-items: center;
+}
+
+.chat-icon small {
+    display: block;
+    margin-left: 5px;
+}
+
+.active {
+    border-radius: 5px;
+}
